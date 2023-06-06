@@ -598,12 +598,10 @@ pointer-events: none;
 .modal-btn:focus {
     border: none;
     background-color: #404BBF;
-    transition-property: backgrond-color;
+    transition-property: backgrond-color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .modal-svg-close {
