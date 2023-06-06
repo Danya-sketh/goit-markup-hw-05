@@ -659,10 +659,12 @@ pointer-events: none;
     color: var(--address-color);
 }
 
-.portf-a:hover .sect-p,
-.portf-a:focus .sect-p {
+.portf-a:hover .img-text,
+.portf-a:focus .img-text {
     transform: translateY(0%);
 }
+
+
 
 .portfolio-main {
     padding: 96px 0 120px;
@@ -707,5 +709,28 @@ pointer-events: none;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.img-text {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--portf-btn-backgr-color);
+    padding: 40px 32px;
+    background-color: #4D5AE5;
+    width: 100%;
+    height: 100%;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
