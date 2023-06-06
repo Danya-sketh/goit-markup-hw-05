@@ -588,27 +588,12 @@ pointer-events: none;
     
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-    border: none;
-    transition-property: backgrond-color, border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: #404BBF;
-    
-    
-}
-
-.modal-svg-close {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-svg-close:hover,
-.modal-svg-close:focus {
+.modal-btn:hover .modal-svg-close,
+.modal-btn:focus .modal-svg-close {
     fill: #FFFFFF;
 }
+
+
 
 /*----------------------- PORTFOLIO --------------------------*/
 /*----------------------- PORTFOLIO --------------------------*/
