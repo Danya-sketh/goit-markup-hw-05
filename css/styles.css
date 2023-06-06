@@ -582,7 +582,7 @@ pointer-events: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    transition-property: transform, background-color, border;
+    transition-property: background-color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -602,6 +602,11 @@ pointer-events: none;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-svg-close:hover,
+.modal-svg-close:focus {
+    fill: #FFFFFF;
 }
 
 /*----------------------- PORTFOLIO --------------------------*/
