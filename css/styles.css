@@ -589,12 +589,15 @@ pointer-events: none;
 }
 
 .modal-btn:hover,
-.modal-btn:focus
+.modal-btn:focus {
+    background-color: #404BBF;
+    border: none;
+}
 
 .modal-btn:hover .modal-svg-close,
 .modal-btn:focus .modal-svg-close {
     fill: #FFFFFF;
-    background-color: #404BBF;
+    
     border: none;
 }
 
@@ -623,6 +626,9 @@ pointer-events: none;
     padding: 12px 24px;
     border: 1px solid var(--portfolio-color);
     border-radius: 4px;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-link:hover,
@@ -653,6 +659,11 @@ pointer-events: none;
     color: var(--address-color);
 }
 
+.portf-a:hover .sect-p,
+.portf-a:focus .sect-p {
+    transform: translateY(0%);
+}
+
 .portfolio-main {
     padding: 96px 0 120px;
 }
@@ -677,7 +688,7 @@ pointer-events: none;
 
 .portf-a {
     display: block;
-    transition-property: scale;
+    transition-property: scale, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
