@@ -617,6 +617,113 @@ body {
 /*----------------------- PORTFOLIO --------------------------*/
 /*----------------------- PORTFOLIO --------------------------*/
 
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-box-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.button-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    background-color: var(--portf-btn-backgr-color);
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--portfolio-color);
+    border-radius: 4px;
+}
+
+.button-link:hover,
+.button-link:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.sect-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.portfolio-box-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.container-portf {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.portfolio-title {
+    font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+margin-bottom: 72px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.sect-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-color);
+}
+
+.portfolio-main {
+    padding: 96px 0 120px;
+}
+
+.portfolio-list {
+    display: flex;
+    justify-content: center;
+    row-gap: 48px;
+    column-gap: 24px;
+    margin-bottom: 72px;
+    flex-wrap: wrap;
+}
+
+
+
+.portf-li {
+    width: calc((100% - 48px)/3)
+}
+
+.portfolio-btn-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .button-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -645,50 +752,6 @@ body {
     text-decoration: none;
 }
 
-.sect-h {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-    margin-bottom: 8px;
-}
-
-.sect-p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--address-color);
-}
-
-.portf-a:hover .img-text,
-.portf-a:focus .img-text {
-    transform: translateY(0%);
-}
-
-
-
-.portfolio-main {
-    padding: 96px 0 120px;
-}
-
-.portfolio-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
-}
-
-.portfolio-main-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
-
-.portf-li {
-    width: calc((100% - 48px) / 3)
-}
 
 .portf-a {
     display: block;
