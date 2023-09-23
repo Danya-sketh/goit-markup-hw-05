@@ -744,12 +744,12 @@ body {
     fill: transparent;
 }
 
-.privacy-box {
-
+.privacy-box:focus {
+color: var(--logo-color);
 }
 
 .privacy:checked + .privacy-label .user-privacy {
-background-color: var(--smth-color);
+background-color: #4D5AE5;
 fill: var(--portf-btn-backgr-color);
 border: none;
 }
