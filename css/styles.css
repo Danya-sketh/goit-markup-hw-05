@@ -733,7 +733,7 @@ input::placeholder {
     color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-name-input:focus .svg-person{
+.modal-name-input:focus + .svg-person{
     border-color: #4D5AE5;
     fill: #4D5AE5;
 }
